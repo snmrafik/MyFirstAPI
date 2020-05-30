@@ -14,7 +14,7 @@ namespace simpleAPI.test
         public void getReturnMyName()
         {
             var retValue = controller.Get(1);
-            Assert.Equal("SYN Test1",retValue.Value);
+            Assert.Equal("SYN Test",retValue.Value);
         }
         [Fact]
         public void Test1()
